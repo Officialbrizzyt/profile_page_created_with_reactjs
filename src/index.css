@@ -1,0 +1,117 @@
+/* :root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+} */
+
+:root {
+  --primary: #5F5DFE;
+  --primary-darker: #4F4DFE;
+  --bg: #EFF3F4;
+  --white: #FFF;
+  --profile-bg: #FFFFFD;
+  --socials-bg: #F9FAFC;
+  --highlight-bg: #F9FAFC;
+  --text-bg: #878789;
+  --text: #797C83;
+  --border-color: #F4F4F4;
+  --social-color: #6B6C6E;
+  --active: #7774B5;
+  --tab-bg: #EBE9FF;
+  --tabs-border: #F2F6F5;
+  --tab-width: 7rem;
+  --tabs-gap: 0rem;
+  --tab-radius: 0.4rem;
+  --scrollbar-thumb: #e4e3f3;
+  --scrollbar-bg: #F2F6F5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: 1px solid var(--primary);
+  outline-offset: 0;
+}
+
+*::selection {
+  background: var(--primary);
+  color: var(--white);
+}
+
+*::-webkit-scrollbar {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: var(--scrollbar-bg);
+  border-radius: 9.99rem;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 9.99rem;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  user-select: none;
+}
